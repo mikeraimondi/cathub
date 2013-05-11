@@ -1,2 +1,163 @@
-<h1>Homes#show</h1>
-<p>Find me in app/views/homes/show.html.erb</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="navbar-inner">
+        <a class="brand" href="#"><img class="img-rounded" src="http://placekitten.com/20/20"></a>
+        <ul class="nav">
+          <li><a href=""><i class="icon-play-circle"></a></i></li>
+        </ul>
+        <form class="navbar-search">
+          <input type="text" class="search-query" placeholder="Search or type a command"><i class="icon-question-sign"></i>
+        </form>
+        <ul class="nav">
+          <li><a href=""><i class="icon-cog"></a></i></li>
+        </ul>
+        <ul class="nav">
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">Gist</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+        <ul class="nav pull-right">
+          <li><a href=""><i class="icon-book"></a></i></li>
+          <li><a href=""><i class="icon-wrench"></a></i></li>
+          <li><a href=""><i class="icon-share"></a></i></li>
+        </ul>
+        <ul class="nav pull-right">
+          <li><a href="#"><img src="http://placekitten.com/20/20">Username</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row user-feed">
+        <div class="span3">
+          <button class="btn">Action</button>
+          <button class="btn dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+          <!-- dropdown menu links -->
+          </ul>
+        </div>
+        <div class="span2 offset7">
+          <a href="#"><img src="http://placekitten.com/20/20"><small>News Feed</small></a>
+        </div>
+      </div>
+      <div class="row body-nav">
+        <div class="btn-group">
+          <button class="span3 btn active">News Feed</button>
+          <button class="span3 btn">Pull Requests</button>
+          <button class="span3 btn">Issues</button>
+          <button class="span3 btn">Stars</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span7">
+          <ol>
+            <li><a href="#">User</a> starred <a href="#">otheruser/repository</a> <span class="timestamp">1 hour ago</span></li>
+            <li><a href="#">User</a> starred <a href="#">otheruser/repository</a> <span class="timestamp">1 hour ago</span></li>
+            <li><a href="#">User</a> starred <a href="#">otheruser/repository</a> <span class="timestamp">1 hour ago</span></li>
+            <li><a href="#">User</a> starred <a href="#">otheruser/repository</a> <span class="timestamp">1 hour ago</span></li>
+            <li><a href="#">User</a> starred <a href="#">otheruser/repository</a> <span class="timestamp">1 hour ago</span></li>
+            <li><a href="#">User</a> starred <a href="#">otheruser/repository</a> <span class="timestamp">1 hour ago</span></li>
+            <li><a href="#">User</a> starred <a href="#">otheruser/repository</a> <span class="timestamp">1 hour ago</span></li>
+            <li><a href="#">User</a> starred <a href="#">otheruser/repository</a> <span class="timestamp">1 hour ago</span></li>
+            <li><a href="#">User</a> starred <a href="#">otheruser/repository</a> <span class="timestamp">1 hour ago</span></li>
+            <li><a href="#">User</a> starred <a href="#">otheruser/repository</a> <span class="timestamp">1 hour ago</span></li>
+            <li><a href="#">User</a> starred <a href="#">otheruser/repository</a> <span class="timestamp">1 hour ago</span></li>
+            <li><a href="#">User</a> starred <a href="#">otheruser/repository</a> <span class="timestamp">1 hour ago</span></li>
+            <li><a href="#">User</a> starred <a href="#">otheruser/repository</a> <span class="timestamp">1 hour ago</span></li>
+          </ol>
+          <button class="btn btn-large span7" type="button">More</button>
+        </div>
+        <div class="span5">
+          <div class="span5 repository-header">
+            <p>Your repositories <span id="repo-quantity">(15)</span></p>
+            <button class="btn btn-small btn-success" type="button"><i class="icon-book"></i>New repository</button>
+          </div>
+          <div class="span5 repository-search">
+            <form class="form-search">
+              <input type="text" class="input-medium search-query" placeholder="Find a Repository...">
+            </form>
+          </div>
+          <div class="span5 repository-nav">
+            <ul class ="nav nav-tabs">
+              <li><a href="#"><small>All Repositories</small></a></li>
+              <li><a href="#"><small>Public</small></a></li>
+              <li><a href="#"><small>Private</small></a></li>
+              <li><a href="#"><small>Sources</small></a></li>
+              <li><a href="#"><small>Forks</small></a></li>
+            </ul>
+          </div>
+          <div class="span5 repository-list">
+            <ul>
+              <li><i class="icon-book"></i><a href="#">username/<strong>repository</strong></a><i class="pull-right icon-play"></i></li>
+              <li><i class="icon-book"></i><a href="#">username/<strong>repository</strong></a><i class="icon-play pull-right"></i></li>
+              <li><i class="icon-book"></i><a href="#">username/<strong>repository</strong></a><i class="icon-play pull-right"></i></li>
+              <li><i class="icon-book"></i><a href="#">username/<strong>repository</strong></a><i class="icon-play pull-right"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="footer-container span12">
+          <div class="span2">
+            <h4>CatHub</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact &amp; support</a></li>
+              <li><a href="#">CatHub Enterprise</a></li>
+              <li><a href="#">Site status</a></li>
+            </ul>
+          </div>
+          <div class="span2">
+            <h4>Applications</h4>
+            <ul>
+              <li><a href="#">CatHub for Mac</a></li>
+              <li><a href="#">CatHub for Windows</a></li>
+              <li><a href="#">CatHub for Eclipse</a></li>
+              <li><a href="#">CatHub for mobile apps</a></li>
+            </ul>
+          </div>
+          <div class="span2">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Gauges: Web analytics</a></li>
+              <li><a href="#">Speaker Deck: Presentations</a></li>
+              <li><a href="#">Gits: Code snippets</a></li>
+              <li><a href="#">Job board</a></li>
+            </ul>
+          </div>
+          <div class="span2">
+            <h4>Documentation</h4>
+            <ul>
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact &amp; support</a></li>
+              <li><a href="#">CatHub Enterprise</a></li>
+              <li><a href="#">Site status</a></li>
+            </ul>
+          </div>
+          <div class="span2">
+            <h4>CatHub</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact &amp; support</a></li>
+              <li><a href="#">CatHub Enterprise</a></li>
+              <li><a href="#">Site status</a></li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
