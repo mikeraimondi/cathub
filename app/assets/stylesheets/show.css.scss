@@ -17,7 +17,7 @@ ul.nav2 li a{font-weight:bold;}
   padding-bottom:20px;
   border-bottom: 1px solid #F1F1F1;
 }
-i {padding-right: 13px;}
+i {padding-right: 11px;}
 span{
   color: lightgrey;
 }
@@ -28,27 +28,100 @@ span{
   margin-top: 20px;
   border: 1px solid #dddddd;
   .repository-header {
-    width: 382px;
+    width: 380px;
     overflow:auto;
     display: inline-block;
     background-color: #F1F1F1;
-    
-    #repo-quantity {
-      color: lightgray;
-    }
-   #input-size {
-
-    }
     p {
       display: inline-block;
       float: left;
-      padding-top: 5px;
+      margin-top: 5px;
+      margin-left: 5px;
     }
     button {
       display: inline-block;
       float: right;
+      margin-right: 4px;
+      margin-top: 4px;
+    }
+    #repo-quantity {
+      color: lightgray;
     }
   }  
+  .repository-search {
+    background: #fafafb;
+    padding-left: 5px; 
+    #repo-searchbox {
+      width: 340px;
+    }
+  }
+  ul.nav-tabs {
+    li a {
+      color: gray;
+    }
+  }
+  .repository-list {
+    ul {
+      list-style: none;
+      margin: 0;
+      li {
+        padding: 5px;
+        border-top: 1px solid #e5e5e5;
+        i {
+          padding-right: 8px;
+        }
+        a {
+        }
+      }
+    }
+  }
+}
+
+.sitemap {
+  margin-top: 30px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding: 24px;
+  font-size: 12px;
+  display: -webkit-flex;
+  display: flex;
+  .sitemap-column {
+    flex: 1;
+    padding: 0 30px;
+    h4 {
+      font-size: 12px;
+      margin: 0px;
+    }
+    ul {
+      margin: 0;
+      list-style: none;
+    }
+    li {
+      a {
+      }
+    }
+  }
+}
+
+.footer {
+  padding-top: 10px;
+  ul.footer-ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      padding: 10px;
+    }
+  }
+  img {
+    padding-left: 95px;
+    padding-top: 10px;
+  }
+  h5.copyright {
+    text-align: right;
+    font-weight: normal;
+    color: gray;
+    font-size: 12px;
+  }
 }
 
 
