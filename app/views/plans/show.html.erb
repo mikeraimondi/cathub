@@ -1,2 +1,252 @@
-<h1>Plans#show</h1>
-<p>Find me in app/views/plans/show.html.erb</p>
+<header class="navbar">
+  <div class="navbar-inner">
+    <div class="container">     
+      <a class="brand" href="#"><img class="img-rounded" alt="you're a kitty!" src="http://placekitten.com/20/20"></a>
+      <ul class="nav">
+        <li><a href="#"><i class="icon-play-circle"></i></a></li>
+      </ul>
+      <form class="navbar-form pull-left" id="navbar-style">        
+        <input type="text" placeholder="Search or type a command     ?">
+      </form>
+      <ul class="nav">
+        <li><a href=""><i class="icon-cog"></i></a></li>
+      </ul>
+      <ul class="nav nav2">
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">Gist</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+      <ul class="nav pull-right">
+        <li><a href=""><i class="icon-book"></i></a></li>
+        <li><a href=""><i class="icon-wrench"></i></a></li>
+        <li><a href=""><i class="icon-share"></i></a></li>
+      </ul>
+      <ul class="nav pull-right">
+        <li><a href="#"><img alt="you're a kitty!" src="http://placekitten.com/20/20">Username</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<div class="container plans-container">
+  <div class="row">
+    <div class="span12 plans-header">
+      <h2>Plans &amp; Pricing</h2>
+      <h3><small>Take a look at our plan options.</small></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12 upgrade-downgrade">
+      <div class="current-pricing"><span class="price-dollar">$</span><span class="price-num"><strong>7</strong></span><span class="price-mo">/mo</span></div>
+      <div class="upgrade-downgrade-center">
+        <h4>Upgrade or downgrade your account</h4>
+        <h4><small>You're currently on the <strong>micro</strong> plan.</h4>
+      </div>
+      <a href="#" class="btn upgrade-downgrade-button">Upgrade or downgrade your account</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span4 personal-plan">
+      <div class="personal-plan-header">
+        <h3>Micro</h3>
+        <div class="upgrade-pricing"><span class="price-dollar">$</span><span class="price-num"><strong>7</strong></span><span class="price-mo">/mo</span></div>
+      </div>
+      <div class="well personal-plan-attn"><h4>5 Private Repositories</h4></div>
+      <ul class="personal-plan-details">
+        <li><strong>Unlimited</strong> collaborators</li>
+        <li><strong>Unlimited</strong> public repositories</li>
+      </ul>
+    </div>
+    <div class="span4 personal-plan">
+      <div class="personal-plan-header">
+        <h3>Small</h3>
+        <div class="upgrade-pricing"><span class="price-dollar">$</span><span class="price-num"><strong>12</strong></span><span class="price-mo">/mo</span></div>
+      </div>
+      <div class="well personal-plan-attn"><h4>10 Private Repositories</h4></div>
+      <ul class="personal-plan-details">
+        <li><strong>Unlimited</strong> collaborators</li>
+        <li><strong>Unlimited</strong> public repositories</li>
+      </ul>
+    </div>
+    <div class="span4 personal-plan">
+      <div class="personal-plan-header">
+        <h3>Medium</h3>
+        <div class="upgrade-pricing"><span class="price-dollar">$</span><span class="price-num"><strong>22</strong></span><span class="price-mo">/mo</span></div>
+      </div>
+      <div class="well personal-plan-attn"><h4>20 Private Repositories</h4></div>
+      <ul class="personal-plan-details">
+        <li><strong>Unlimited</strong> collaborators</li>
+        <li><strong>Unlimited</strong> public repositories</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="business-plans-intro">
+      <h3>Business Plans</h3>
+    </div>
+    <div class="span3 business-plan">
+      <div class="business-plan-header">
+        <h3>Bronze</h3>
+        <div class="upgrade-pricing"><span class="price-dollar">$</span><span class="price-num"><strong>25</strong></span><span class="price-mo">/mo</span></div>
+      </div>
+      <div class="well business-plan-attn"><h4>10 Private Repositories</h4></div>
+      <ul class="business-plan-details">
+        <li><strong>Unlimited</strong> teams</li>
+        <li><strong>Unlimited</strong> public repositories</li>
+      </ul>
+    </div>
+    <div class="span3 business-plan">
+      <div class="business-plan-header">
+        <h3>Silver</h3>
+        <div class="upgrade-pricing"><span class="price-dollar">$</span><span class="price-num"><strong>50</strong></span><span class="price-mo">/mo</span></div>
+      </div>
+      <div class="well business-plan-attn"><h4>20 Private Repositories</h4></div>
+      <ul class="business-plan-details">
+        <li><strong>Unlimited</strong> teams</li>
+        <li><strong>Unlimited</strong> public repositories</li>
+      </ul>
+    </div>
+    <div class="span3 business-plan">
+      <div class="business-plan-header">
+        <h3>Gold</h3>
+        <div class="upgrade-pricing"><span class="price-dollar">$</span><span class="price-num"><strong>100</strong></span><span class="price-mo">/mo</span></div>
+      </div>
+      <div class="well business-plan-attn"><h4>50 Private Repositories</h4></div>
+      <ul class="business-plan-details">
+        <li><strong>Unlimited</strong> teams</li>
+        <li><strong>Unlimited</strong> public repositories</li>
+      </ul>
+    </div>
+    <div class="span3 business-plan">
+      <div class="business-plan-header">
+        <h3>Platinum</h3>
+        <div class="upgrade-pricing"><span class="price-dollar">$</span><span class="price-num"><strong>200</strong></span><span class="price-mo">/mo</span></div>
+      </div>
+      <div class="well business-plan-attn"><h4>125 Private Repositories</h4></div>
+      <ul class="business-plan-details">
+        <li><strong>Unlimited</strong> teams</li>
+        <li><strong>Unlimited</strong> public repositories</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12 cathub-enterprise">
+      <h3>CatHub Enterprise</h3>
+      <h3><small>Learn more about running a CatHub instance inside your private network.</small></h3>
+      <a href="#" class="btn">Learn more about CatHub Enterprise<i class="icon-arrow-right"></i></a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12 common-features">
+      <h4>All plans come with...</h4>
+      <ul>
+        <li><i class="icon-ok"></i>Free setup</li>
+        <li><i class="icon-ok"></i>SSL Protection</li>
+        <li><i class="icon-ok"></i>Email support</li>
+        <li><i class="icon-ok"></i>Wikis, Issues, Pages &amp; more</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span6 email-form">
+      <div class="email-form-header">
+        <h4>Confused about which plan to choose?</h4>
+        <p>Tell us how many projects you have and we'll let you know which plan would best fit your needs.</p>
+      </div>
+      <form>
+        <fieldset>
+          <label>Your email address</label>
+          <input type="text" placeholder="meow@whiskers.com">
+          <textarea rows="10"></textarea>
+          <button type="submit" class="btn">Send message</button>
+        </fieldset>
+      </form>
+    </div>
+    <div class="span6 plan-questions">
+      <section>
+        <h4>What if I need a larger plan?</h4>
+        <p>If you need a plan larger than Platinum, <a href="#">contact us</a> for details about our larger business plans. We also offer an installable version called <a href="#">CatHub Enterprise</a>.</p>
+      </section>
+      <section>
+        <h4>What's different about an organization account?</h4>
+        <p>A CatHub organization is a profile on CatHub that is managed from your personal account. Organizations are best suited for businesses who need to manage permissions for many employees. For more information, please read our <a href="#">Help article</a>.</p>
+      </section>
+      <section>
+        <h4>Why don't I see any disk space limits?</h4>
+        <p>Your CatHub account has no size limitations. Repositories perform best when kept under 1GB. For more information on repository sizes, please read our <a href="#">Help article</a>.</p>
+      </section>
+      <section>
+        <h4>What is a collaborator?</h4>
+        <p>Collaborators are other CatHub users that you've given write access to one or more of your repositories.</p>
+        <p>Collaborators may fork any private repository you’ve added them to without their own paid plan. Their forks do not count against your private repository quota.</p>
+      </section>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12 contact-us">
+      <h2>Questions? Concerns? Contact us day or night at <a href="#">support@github.com</a>.</h2>
+    </div>
+  </div>
+ <div class="row sitemap">
+  <div class="sitemap-column">
+    <h4>CatHub</h4>
+    <ul>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact &amp; support</a></li>
+      <li><a href="#">CatHub Enterprise</a></li>
+      <li><a href="#">Site status</a></li>
+    </ul>
+  </div>
+  <div class="sitemap-column">
+    <h4>Applications</h4>
+    <ul>
+      <li><a href="#">CatHub for Mac</a></li>
+      <li><a href="#">CatHub for Windows</a></li>
+      <li><a href="#">CatHub for Eclipse</a></li>
+      <li><a href="#">CatHub for mobile apps</a></li>
+    </ul>
+  </div>
+  <div class="sitemap-column">
+    <h4>Services</h4>
+    <ul>
+      <li><a href="#">Gauges: Web analytics</a></li>
+      <li><a href="#">Speaker Deck: Presentations</a></li>
+      <li><a href="#">Gits: Code snippets</a></li>
+      <li><a href="#">Job board</a></li>
+    </ul>
+  </div>
+  <div class="sitemap-column">
+    <h4>Documentation</h4>
+    <ul>
+      <li><a href="#">GitHub Help</a></li>
+      <li><a href="#">Developer API</a></li>
+      <li><a href="#">GitHub Flavored Markdown</a></li>
+      <li><a href="#">CatHub Pages</a></li>
+    </ul>
+  </div>
+  <div class="sitemap-column">
+    <h4>More</h4>
+    <ul>
+      <li><a href="#">Training</a></li>
+      <li><a href="#">Student &amp; teachers</a></li>
+      <li><a href="#">The Shop</a></li>
+      <li><a href="#">Plans &amp; pricing</a></li>
+      <li><a href="#">Octodex</a></li>
+    </ul>
+  </div>
+</div>
+<div class="row footer">
+    <div class="span4">
+      <ul class ="footer-ul">
+        <li><a href="#"><small>Terms of Service</small></a></li>
+        <li><a href="#"><small>Privacy</small></a></li>
+        <li><a href="#"><small>Security</small></a></li>
+      </ul>
+    </div>
+    <div class="span4"><img class="img-rounded" alt="you're a kitty!" src="http://placekitten.com/20/20"></div>
+    <div class="span4">
+      <h5 class="copyright">&copy; 2013 CatHub, Inc. All Rights Reserved.</h5>
+    </div>          
+  </div>
+</div>
