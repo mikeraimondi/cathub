@@ -1,1 +1,54 @@
 @import 'bootstrap';
+
+.navbar-inner .container {width:960px;}
+ul.nav2 li a{font-weight:bold;}
+.newsfeed-container {
+  border: 1px solid lightgray;
+  small {
+    color: #4183C4;
+  }
+}
+.user-feed{padding-bottom: 10px;}
+.active{border-bottom-color:red; box-shadow: none;}
+.news-feed {
+    list-style:none;
+  li{
+  padding-top: 20px;
+  padding-bottom:20px;
+  border-bottom: 1px solid #F1F1F1;
+}
+i {padding-right: 13px;}
+span{
+  color: lightgrey;
+}
+}
+
+.repository-container {
+  overflow: auto;
+  margin-top: 20px;
+  border: 1px solid #dddddd;
+  .repository-header {
+    width: 382px;
+    overflow:auto;
+    display: inline-block;
+    background-color: #F1F1F1;
+    
+    #repo-quantity {
+      color: lightgray;
+    }
+   #input-size {
+
+    }
+    p {
+      display: inline-block;
+      float: left;
+      padding-top: 5px;
+    }
+    button {
+      display: inline-block;
+      float: right;
+    }
+  }  
+}
+
+
