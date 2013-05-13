@@ -1,0 +1,120 @@
+.plans-container {
+  .plans-header {
+    h2 {
+      font-weight: normal;
+      color: #495961;
+      margin: 0;
+    }
+    h3 {
+      margin: 0;
+      line-height: 15px;
+      color: #777783;
+    }
+  }
+  .upgrade-downgrade {
+    margin-top: 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, white, #eeeeee);
+    .current-pricing {
+      float: left;
+      margin: 15px;
+      padding: 5px;
+      border: 1px solid #b6b69e;
+      border-radius: 3px;
+      width: 58px;
+      height: 26px;
+      background: white;
+      .price-dollar {
+        color: #949494;
+        font-size: 18px;
+        position: relative;
+        bottom: 8px;
+      }
+      .price-num {
+        font-size: 30px;
+      }
+      .price-mo {
+        color: #cccccc;
+        font-size: 16px;
+      }
+    }
+    .upgrade-downgrade-center{
+      float: left;
+      width: 500px;
+      margin: 0;
+      h4 {
+        line-height: 10px;
+        width: 500px;
+      }
+    }
+    a {
+      float: right;
+      position: relative;
+      top: 16px;
+    }
+  }
+  .personal-plan {
+    border: 1px solid #c4dce2;
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #e9f5fa, #c5e8f1);
+    .price-dollar {
+      color: #949494;
+      font-size: 18px;
+      position: relative;
+      bottom: 8px;
+    }
+    .price-num {
+      font-size: 30px;
+    }
+    .price-mo {
+      color: #cccccc;
+      font-size: 16px;
+    }
+  }
+  .business-plan {
+    border: 1px solid #c7e2c4;
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #f1fef4, #c4e6bd);
+    .price-dollar {
+      color: #949494;
+      font-size: 18px;
+      position: relative;
+      bottom: 8px;
+    }
+    .price-num {
+      font-size: 30px;
+    }
+    .price-mo {
+      color: #cccccc;
+      font-size: 16px;
+    }
+
+  }
+  .cathub-enterprise {
+    background: linear-gradient(to bottom, #606060, black);
+    h3#cat-ent {
+      color: white;
+    }
+    h3 {
+      line-height: 15px;
+    }
+    a {
+      float: right;
+    }
+  }
+  .common-features {
+    h4 {
+      float: left;
+    }
+    ul {
+      li {
+        list-style: none;
+        display: inline-block;
+        padding: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+
+}
